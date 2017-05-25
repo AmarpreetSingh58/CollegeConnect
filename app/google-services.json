@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "254864226333",
+    "firebase_url": "https://college-connect-73749.firebaseio.com",
+    "project_id": "college-connect-73749",
+    "storage_bucket": "college-connect-73749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254864226333:android:f49689df5b2cff7f",
+        "android_client_info": {
+          "package_name": "com.jainsaab.collegeconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254864226333-i3e1tk466dedighcur8f4dfm1svubop2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jainsaab.collegeconnect",
+            "certificate_hash": "8767e20db393de7c4360843c9c604109cda380d2"
+          }
+        },
+        {
+          "client_id": "254864226333-0jh1rog1laiejfdn8q49q0mualkf668i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jainsaab.collegeconnect",
+            "certificate_hash": "15725853cdb07b6920a90ca5779cfef78e1cafdc"
+          }
+        },
+        {
+          "client_id": "254864226333-fb5ijifkondrot4bll12sk50fngqvovq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jainsaab.collegeconnect",
+            "certificate_hash": "368721fa909f5faee60cba01471edddbe30d5a63"
+          }
+        },
+        {
+          "client_id": "254864226333-obrqulq1kj682a261e0fu7g8kihiovv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXfkkCqUEYrBJ531ie778uf3nEtC9GC1A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254864226333-obrqulq1kj682a261e0fu7g8kihiovv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

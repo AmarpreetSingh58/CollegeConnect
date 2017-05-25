@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/sign_in_activity_margin"
+        android:layout_marginRight="@dimen/sign_in_activity_margin"
+        android:layout_weight="1.0"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            style="@style/FirebaseUI.AuthMethodPicker.Logo"
+            android:contentDescription="@string/accessibility_logo" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/sign_in_activity_margin"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/btn_holder"
+        style="@style/FirebaseUI.AuthMethodPicker.ButtonHolder"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/sign_in_activity_margin"
+        android:layout_marginStart="@dimen/sign_in_activity_margin"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/email_provider"
+            style="@style/FirebaseUI.Button.AccountChooser.EmailButton"
+            android:text="@string/sign_in_with_email" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorOnboardingTeacherLogIn">#8CD6DC</color>
+    <color name="colorOnboardingStudentLogIn">#1959C0</color>
+    <color name="colorOnboardingConnect">#B2DFE4</color>
+    <color name="colorOnboardingGetStarted">#4CAF50</color>
+
+    <color name="colorRegisterAsTeacher">#68C4A7</color>
+    <color name="colorRegisterAsTeacherDark">#3FA282</color>
+    <color name="colorRegisterAsStudent">#37BEF0</color>
+    <color name="colorRegisterAsStudentDark">#109DD1</color>
+
+    <color name="selectedColor">#E91E63</color>
+
+</resources>

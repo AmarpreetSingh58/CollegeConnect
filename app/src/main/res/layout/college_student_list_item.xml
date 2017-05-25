@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/college_students_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/button_round_shape"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/college_students_list_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="akshit.jain94@gmail.com" />
+
+</LinearLayout>

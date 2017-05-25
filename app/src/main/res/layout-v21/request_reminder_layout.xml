@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/button_round_shape"
+    android:backgroundTint="@color/colorRegisterAsStudent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/request_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="2"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        tools:text="Akshit Jain wants to add you to Mathematics class." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/decline_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_shape"
+            android:text="@string/decline"
+            android:textColor="#37BEF0" />
+
+        <Button
+            android:id="@+id/accept_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_shape"
+            android:text="@string/accept"
+            android:textColor="#37BEF0" />
+
+    </LinearLayout>
+
+</LinearLayout>
